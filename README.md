@@ -25,7 +25,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Enable Internet Information Services (IIS)
 - Web Platform Install
 - Install My SQL (Set Up Usernames And Passwords)
-- Install C++ 
 - Configure permissions and Install Osticket
 
 <h2>Installation Steps</h2>
@@ -51,5 +50,17 @@ Installed web platforms: PHP Manager for ISS, Rewrite module, PHP 7.3.8, VC_redi
 </p>
 <p>
 Install my SQL, Typical setup, Launch configuration WIzard (after install), Standard Configuration, Setup Root Password. WHat this does is installing a database for this computer. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Back to IIS, sites -> Default -> osTicket, Double-click PHP Manager, Click “Enable or disable an extension”
+Enable: php_imap.dll
+Enable: php_intl.dll
+Enable: php_opcache.dll
+Assign Permissions: ost-cofig.php, Downloaded and installed HeidiSQL, continued setting up osticket in the browser
 </p>
 <br />
