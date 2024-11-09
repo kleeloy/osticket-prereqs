@@ -8,7 +8,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+- ### [YouTube: How To Install osTicket with Prerequisites](https\)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -36,7 +36,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://github.com/kleeloy/osticket-prereqs/blob/main/Diagrams/ISS%20complete%20(Lab%203).png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-World Wide Web Services -> Application Development Features -> [X] CGI. Checked by checking the local host, 127.0.0.1 to loot back.
+After I created my Azure Virtual Machine Windows 10, 4 vCPUs and named it 'osticket-vm'. I Logged into the VM with Remote Desktop. Within the VM (osticket-vm), I downloaded the osTicket-Installation-Files.zip and unzip it onto my desktop. I am going to use the files in this folder to install osTicket and some of the dependencies. I went ahead and Installed / Enabled IIS in Windows WITH CGI (World Wide Web Services -> Application Development Features -> [X] CGI.) Checked by checking the local host, 127.0.0.1 to loot back.
 </p>
 <br />
 
@@ -44,7 +44,7 @@ World Wide Web Services -> Application Development Features -> [X] CGI. Checked 
 <img src="https://github.com/kleeloy/osticket-prereqs/blob/main/Diagrams/Web%20Platform%20install%20(lab%203).png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Installed web platforms: PHP Manager for ISS, Rewrite module, PHP 7.3.8, VC_redist.x86.exe
+From the “osTicket-Installation-Files” folder, I installed PHP Manager for IIS, Rewrite module, PHP 7.3.8, VC_redist.x86.exe
 </p>
 <br />
 
@@ -61,7 +61,7 @@ Installed web platforms: PHP Manager for ISS, Rewrite module, PHP 7.3.8, VC_redi
 <img src="https://github.com/kleeloy/osticket-prereqs/blob/main/Diagrams/Os%20ticket%20installer.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install my SQL, Typical setup, Launch configuration WIzard (after install), Standard Configuration, Setup Root Password. What this does is installing a database for this computer. 
+Install my SQL, Typical setup, Launch configuration WIzard (after install), Standard Configuration, Setup Root Password. What this does is installs a database for this computer (osticket). 
 </p>
 <br />
 
@@ -78,7 +78,7 @@ Install my SQL, Typical setup, Launch configuration WIzard (after install), Stan
 <img src="https://github.com/kleeloy/osticket-prereqs/blob/main/Diagrams/osticket%20successfully%20installed%20(lab3).png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Back to IIS, sites -> Default -> osTicket, Double-click PHP Manager, Click “Enable or disable an extension”
+Back to IIS, sites -> Default -> osTicket, Double-click PHP Manager, Clicked the Enable or disable the following extensions:
 Enable: php_imap.dll
 Enable: php_intl.dll
 Enable: php_opcache.dll
